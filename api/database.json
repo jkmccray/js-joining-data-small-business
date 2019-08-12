@@ -1,24 +1,70 @@
 {
-  "posts": [
+  "employees": [
     {
+      "name": "Mori",
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "departmentId": 1,
+      "computerId": 3
     },
     {
+      "name": "Tori",
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "departmentId": 3,
+      "computerId": 4
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Rori",
+      "id": 3,
+      "departmentId": 4,
+      "computerId": 3
+    },
+    {
+      "name": "Dori",
+      "id": 4,
+      "departmentId": 2,
+      "computerId": 2
+    },
+    {
+      "name": "Gori",
+      "id": 5,
+      "departmentId": 3,
+      "computerId": 1
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "departments": [
+    {
+      "deptName": "IT",
+      "id": 1
+    },
+    {
+      "deptName": "Marketing",
+      "id": 2
+    },
+    {
+      "deptName": "Sales",
+      "id": 3
+    },
+    {
+      "deptName": "Operations",
+      "id": 4
+    }
+  ],
+  "computers": [
+    {
+      "model": "2015 MacBook Pro",
+      "id": 1
+    },
+    {
+      "model": "2019 Lenovo Yoga",
+      "id": 2
+    },
+    {
+      "model": "2017 Chromebook",
+      "id": 3
+    },
+    {
+      "model": "2018 Microsoft Surface",
+      "id": 4
+    }
+  ]
 }
